@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Front End E-challenge23</title>
+        <meta charset="UTF-8">
+        <style> 
+
+                @media (max-width: 400px) { 
+
+
+                }
+
+                    
+                body{
+                    background: linear-gradient(
+                                to bottom,
+                                #e6e6e6 0%,
+                                #e6e6e6 50%,
+                                white 50%,
+                                white 100%
+                            );
+                            background-repeat: no-repeat;
+                            font-family: cursive;
+                }
+              
+                header{
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                h1{
+                    font-weight:800px;
+
+                }
+                #container{
+                    display: flex;
+                    flex-direction:row;
+                    position: relative;
+                    width: 80%;   
+                    left: 200px; 
+                     border: 1px solid #ccc;
+                    border-radius: 10px;
+                    box-shadow: 0 10px 20px rgba(142, 138, 138, 0.19), 0 6px 6px rgba(0,0,0,0.23);                    
+                }
+                #left{
+                    padding: 20px;
+
+                    background-color: white;
+                    width: 75%;
+                     height: 100%;
+
+
+                }
+                #right{
+                    padding: 40px;
+                    background-color:  #f2f2f2;
+                    width: 25%;
+                    height: 100%;
+                    text-align: center;
+                }
+             
+               
+
+                .list{
+                    display: flex;
+                    padding: 10px;
+                }
+                .usd{
+                    color: grey;
+                }
+                a{
+                    color: grey;
+                    margin-bottom: 10px;
+                    font-size: 15px;
+
+                }
+                button{
+                    margin-top: 10px;
+                    background-color: black;
+                    color: white;
+                    height: 40px;
+                    border-radius:  10px;
+                    width:180px;
+                }
+
+                legend{
+                    color: blueviolet;
+                }
+
+                ul{
+                    list-style-type:none;
+                }
+                .spanIt{
+                    color: green;
+                    font-size: 20px;
+                }
+        </style>
+
+    </head>
+    <body>
+       <main>
+            <header>
+                <h1>Simple no-tricks pricing</h1>
+                <h3>If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.</h3>
+            </header>
+            <div id="container">
+                <div id="left">
+                    <h2>Lifetime Membership</h2>
+           
+                    <p>Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                 
+                    <fieldset class="whtaBloc">
+                        <legend>WHAT'S INCLUDED</legend>
+                 
+                    <div class="list">   
+                        <ul>
+                            <li><span class="spanIt">&#10004;</span> forum access</li>
+                            <li><span class="spanIt">&#10004;</span> Member resources</li>
+                            
+                        </ul>
+                        <ul>
+                            <li><span class="spanIt">&#10004;</span> ENtry to annual conference</li>
+                            <li><span class="spanIt">&#10004;</span> Official member t-shirt</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </fieldset>
+                    
+
+
+                </div>
+                <div id="right">
+                    <h3>Pay once, own it forever</h3>
+                    <p><strong>$349</strong> <span  class="usd">USD</span></p>
+                    <a href="#">Learn about our Membership policy</a>
+                    <br>
+                    <button >Get Access</button>
+                    <p>Get a free sample <span  class="usd">(20MB)</span></p>
+                </div>
+            </div>
+       </main>
+    </body>
+</html>
